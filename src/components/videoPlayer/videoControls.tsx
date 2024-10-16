@@ -110,7 +110,7 @@ export default function VideoPlayerControls({
 
   // playback speed control
   function playBackSpeedHandler() {
-    const speedArr = [0.5, 1, 1.25, 1.5, 1.75, 2];
+    const speedArr = [0.5, 1, 1.25, 1.5, 1.75, 2, 3, 4];
     let currentSpeed = player?.playbackRate();
     let index = speedArr.indexOf(currentSpeed);
 
